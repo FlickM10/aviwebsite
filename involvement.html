@@ -45,26 +45,30 @@
 
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-light-bg/90 dark:bg-dark-bg/90 backdrop-blur-sm shadow-xl border-b border-gray-200 dark:border-gray-700/50">
-        <div class="max-width-7xl mx-auto px-4 sm:px-8 lg:px-12 py-6 flex justify-between items-center">
-            <a href="index.html" class="text-3xl font-bold text-golden hover:text-silver transition duration-150">Avaneesh Kad</a>
-            <nav class="hidden md:flex space-x-10 items-center">
-                <a href="index.html#about" class="text-xl hover:text-golden transition">About</a>
+        <div class="max-width-7xl mx-auto px-4 sm:px-8 lg:px-12 py-6">
+            <div class="flex justify-center items-center mb-4">
+                <a href="index.html" class="text-3xl font-bold text-golden hover:text-silver transition duration-150">Avaneesh Kad</a>
+            </div>
+            <nav class="flex justify-center space-x-8 items-center">
+                <a href="index.html#about" class="text-xl hover:text-golden transition">About Me</a>
                 <a href="index.html#skills" class="text-xl hover:text-golden transition">Expertise</a>
                 <a href="index.html#portfolio" class="text-xl hover:text-golden transition">Projects</a>
                 <a href="honors.html" class="text-xl hover:text-golden transition">Honors</a>
                 <a href="involvement.html" class="text-xl hover:text-golden transition font-semibold">Involvement</a>
                 <a href="index.html#contact" class="text-xl hover:text-golden transition">Contact</a>
-                <button id="theme-toggle" class="p-3 rounded-full hover:bg-gray-100 dark:hover:bg-dark-card transition">
+                <button id="theme-toggle" class="p-3 rounded-full hover:bg-gray-100 dark:hover:bg-dark-card transition ml-4">
                     <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                 </button>
             </nav>
-            <button class="md:hidden p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-dark-card transition" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
-            </button>
+            <div class="md:hidden flex justify-center mt-4">
+                <button class="p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-dark-card transition" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+                </button>
+            </div>
         </div>
         <div id="mobile-menu" class="md:hidden hidden pb-6 border-t border-gray-200 dark:border-gray-700/50">
             <nav class="flex flex-col space-y-3 px-6">
-                <a href="index.html#about" class="py-3 text-xl hover:text-golden transition">About</a>
+                <a href="index.html#about" class="py-3 text-xl hover:text-golden transition">About Me</a>
                 <a href="index.html#skills" class="py-3 text-xl hover:text-golden transition">Expertise</a>
                 <a href="index.html#portfolio" class="py-3 text-xl hover:text-golden transition">Projects</a>
                 <a href="honors.html" class="py-3 text-xl hover:text-golden transition">Honors</a>
